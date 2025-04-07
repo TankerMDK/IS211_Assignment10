@@ -1,7 +1,5 @@
 import sqlite3
 
-from pyodbc import connect
-
 # connect to the database
 conn = sqlite3.connect("pets.db")
 cursor = conn.cursor()

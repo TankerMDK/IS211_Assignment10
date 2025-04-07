@@ -10,7 +10,7 @@ def main():
     # Requesting the person_id input
     while True:
         try:
-            person_id = int(input("Please enter person ID OR (-1 to EXIT)"))
+            person_id = int(input("Please enter person ID OR (-1 to EXIT): "))
         except ValueError:
             print("Please enter a valid number.")
             continue
